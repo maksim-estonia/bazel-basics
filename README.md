@@ -2,6 +2,10 @@
 
 [Tutorial](https://docs.bazel.build/versions/main/tutorial/cpp.html)
 
+[Bazel Tutorial: Build a C++ Project](https://docs.bazel.build/versions/main/tutorial/cpp.html)
+
+[Cpp-template: bazel + google test](https://github.com/ratanparai/cpp-template)
+
 ### Build with Bazel
 
 - The `WORKSPACE` file, which identifies the directory and its contents as a Bazel workspace and lives at the root of the project's directory structure.
