@@ -18,3 +18,9 @@
 
 [Part 4: Targets with go_library, go_test & go_binary](https://www.youtube.com/watch?v=DB_kWimE2bw)
 
+## Bazel docs
+
+[Overview](https://bazel.build/docs)
+
+
+
