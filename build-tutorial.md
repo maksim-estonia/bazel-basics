@@ -44,6 +44,18 @@ bazel query --notool_deps --noimplicit_deps "deps(//main:hello-world)" \
   --output graph
 ```
 
+On Ubuntu, you can view the graph locally by installing GraphViz and the xdot Dot Viewer:
+
+```
+sudo apt update && sudo apt install graphviz xdot
+```
+
+Then you can generate and view the graph by piping the text output above straight to xdot:
+
+```
+xdot <(bazel query --notool_deps --noimplicit_deps "deps(//main:hello-world)" --output graph)
+```
+
 ### Refine your Bazel build
 
 You can split the sample project build into two targets. 
